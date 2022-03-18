@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+
+  background: #eaea;
+
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 0.3rem;
+}
+
+p {
+  margin-bottom: 0.3rem;
+}
+
+hr {
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.small-text {
+  margin: 0;
+}
+
+input {
+  margin-bottom: 0.4rem;
+}
+
+.gender {
+  margin-bottom: 1rem;
+}
